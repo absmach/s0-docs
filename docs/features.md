@@ -15,16 +15,16 @@ The gateway provides support for the following communication interfaces:
 
 The custom PCB integrates multiple communication modules and power interfaces designed for industrial deployment:
 
-| Component       | Description                                 |
-|----------------|---------------------------------------------|
-| ESP32-C6       | Main microcontroller (RISC-V, WiFi, BLE)    |
-| RC-S2LP        | Wireless M-Bus 868 MHz transceiver           |
-| RAK3172        | LoRa module (868 MHz)                        |
-| SIM7080G       | NB-IoT/LTE-M module                          |
-| Wired M-Bus    | Driver interface for traditional M-Bus meters |
-| Ethernet       | (Optional) for local network connectivity    |
-| USB-C & Terminals | For power and debug                       |
-| GNSS Support   | Optional via SIM7080G for asset tracking     |
+| Component         | Description                                   |
+| ----------------- | --------------------------------------------- |
+| ESP32-C6          | Main microcontroller (RISC-V, WiFi, BLE)      |
+| RC-S2LP           | Wireless M-Bus 868 MHz transceiver            |
+| RAK3172           | LoRa module (868 MHz)                         |
+| SIM7080G          | NB-IoT/LTE-M module                           |
+| Wired M-Bus       | Driver interface for traditional M-Bus meters |
+| Ethernet          | (Optional) for local network connectivity     |
+| USB-C & Terminals | For power and debug                           |
+| GNSS Support      | Optional via SIM7080G for asset tracking      |
 
 The board is compact and optimized for IP-rated DIN-rail enclosures for industrial/outdoor environments. It features side-mounted SMA connectors for each antenna (WiFi, GNSS, LoRa, NB-IoT, wMBus).
 
