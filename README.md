@@ -50,6 +50,13 @@ The gateway firmware performs the following functions:
 - Logs diagnostics and status via UART or remote logging service.
 
 ---
+## 🤝 Contributing
+
+Please refer to the [CONTRIBUTING.md](https://github.com/absmach/.github/blob/main/CONTRIBUTING.md) file on how to contribute to this project.
+
+## 📜 License
+
+This project is licensed under the terms of the [Apache License](./LICENSE).
 
 ## 📦 Repository Contents
 
