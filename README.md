@@ -46,7 +46,7 @@ The board is compact and optimized for IP-rated DIN-rail enclosures for industri
 The gateway firmware performs the following functions:
 
 - Collects meter data periodically from both wired and wireless M-Bus meters.
-- Transmits structured data securely to, Magistrala a remote IoT platform via MQTT or HTTPS.
+- Transmits structured data securely to, Magistrala a remote IoT platform via MQTT.
 - Manages reconnections and retry logic for unreliable NB-IoT networks.
 - Logs diagnostics and status via UART or remote logging service.
 
