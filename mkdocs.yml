@@ -20,3 +20,5 @@ markdown_extensions:
 nav:
   - Overview: index.md
   - Features: features.md
+  - Architecture: architecture.md
+  - SO Baseboard: s0-baseboard.md
