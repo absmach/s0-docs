@@ -1,0 +1,5 @@
+site_name: S0 Docs
+
+nav:
+  -Home: index.md
+  -Product: s0.md
