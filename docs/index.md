@@ -4,7 +4,7 @@ Documentation for S0 gateway
 ### 📟 S0 
 ![IoT Gateway Block Diagram](/images/s0-front.jpg)
 
-This project involves the design and development of a robust and modular **IoT Gateway** for smart metering applications. The gateway is capable of collecting data from both **Wireless M-Bus (wMBus)** and **wired M-Bus** utility meters, and transmitting the collected data securely to a remote IoT platform over the internet.
+The S0 is a robust and modular **IoT Gateway** for smart metering applications. The gateway is capable of collecting data from both **Wireless M-Bus (wMBus)** and **wired M-Bus** utility meters, and transmitting the collected data securely to a remote IoT platform over the internet.
 
 
 ## 🚀 Overview
@@ -19,6 +19,3 @@ Please refer to the [CONTRIBUTING.md](https://github.com/absmach/.github/blob/ma
 ## 📜 License
 
 This project is licensed under the terms of the [Apache License](./LICENSE).
-
-## 📦 Repository Contents
-
