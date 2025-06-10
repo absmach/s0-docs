@@ -2,9 +2,9 @@
 
 Documentation for S0 gateway
 
-# 📡 IoT Gateway for Wireless and Wired M-Bus Metering
+## 📡 IoT Gateway for Wireless and Wired M-Bus Metering
 
-### 📟 S0
+## 📟 S0
 
 ![IoT Gateway Block Diagram](/images/s0-front.jpg)
 
