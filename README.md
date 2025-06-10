@@ -1,4 +1,4 @@
-# s0-docs
+# S0-docs
 Documentation for S0 gateway
 # 📡 IoT Gateway for Wireless and Wired M-Bus Metering
 ### 📟 S0 
@@ -6,7 +6,6 @@ Documentation for S0 gateway
 
 This project involves the design and development of a robust and modular **IoT Gateway** for smart metering applications. The gateway is capable of collecting data from both **Wireless M-Bus (wMBus)** and **wired M-Bus** utility meters, and transmitting the collected data securely to a remote IoT platform over the internet.
 
----
 
 ## 🚀 Overview
 
