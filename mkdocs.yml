@@ -1,5 +1,22 @@
-site_name: S0 Docs
+copyright: Copyright (c) Abstract Machines
+repo_url: https://github.com/absmach/s0-docs.git
+site_description: S0 Documentation
+site_name: S0
+site_url: ""
+edit_uri: ""
+
+theme:
+  name: material
+  icon: 
+    repo: fontawesome/brands/github
+
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - toc:
+      permalink: "#"
 
 nav:
-  -Home: index.md
-  -Product: s0.md
+  - Overview: index.md
+  - Features: features.md
