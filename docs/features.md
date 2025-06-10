@@ -23,7 +23,6 @@ The custom PCB integrates multiple communication modules and power interfaces de
 | USB-C & Terminals | For power and debug                           |
 | GNSS Support      | Optional via SIM7080G for asset tracking      |
 
-
 The board is compact and optimized for IP-rated DIN-rail enclosures for industrial/outdoor environments. It features side-mounted SMA connectors for each antenna (WiFi, GNSS, LoRa, NB-IoT, wMBus).
 
 ---
