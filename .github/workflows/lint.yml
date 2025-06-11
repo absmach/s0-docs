@@ -7,6 +7,7 @@ on:
   pull_request:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   ci:
@@ -26,4 +27,3 @@ jobs:
 
       - name: run markdownlint
         run: markdownlint --disable MD013 -- docs/
-        
