@@ -6,44 +6,44 @@
 
 ### **ESP32 CIRCUIT**
 
-![ESP32 C6](/images/image-10.png)
+![ESP32 C6](/images/espcircuit.png)
 
-![ESP Reset and Decoupling Capacitors](/images/image-9.png)
+![ESP Reset and Decoupling Capacitors](/images/esp-reset.png)
 
 ### **SIM7080G CIRCUIT**
 
-![SIM7080G](/images/image-11.png)
+![SIM7080G](/images/sim7080g.png)
 
 ![STATUS LEDs, SIM POWER,](/images/image-14.png)
 
-![DECOUPLING CAPS AND SIM POWER CONTROL](image-7.png)
+![DECOUPLING CAPS AND SIM POWER CONTROL](/images/decaps-sim.png)
 
-![Antenna and Level Shifter Circuits](image-8.png)
+![Antenna and Level Shifter Circuits](/images/image-8.png)
 
 ### **RAK 3172 LORA MODULE**
 
-![LORA MODULE](image-5.png)
+![LORA MODULE](/images/image-5.png)
 
-![LORA RESET](image-6.png)
+![LORA RESET](/images/image-6.png)
 
-### **RC-S2LP CIRCUIT**
+### **WMBUS RC-S2LP CIRCUIT**
 
-![WMBUS](image-9.png)
+![WMBUS](/images/image-9.png)
 
 ### **USB-C AND BATTERY CONNECTOR**
 
-![USB C AND BATTERY CONNECTOR](image-10.png)
+![USB C AND BATTERY CONNECTOR](/images/image-10.png)
 
 ### **POWER CONVERSION CIRCUIT**
 
-![BUCK CONVERTER CIRCUIT](image-11.png)
+![BUCK CONVERTER CIRCUIT](/images/image-11.png)
 
 ### **RESISTOR AND CAPACITOR SPECS**
 
-![RESISTOR AND CAPACITOR SPECS](image-1.png)
+![RESISTOR AND CAPACITOR SPECS](/images/image-1.png)
 
 ### **BOARD FRAME AND HEADER PINS**
 
-![BOARD CONNECTOR](image-2.png)
+![BOARD CONNECTOR](/images/image-2.png)
 
-![FEMALE HEADERS](image-3.png)
+![FEMALE HEADERS](/images/image-3.png)
