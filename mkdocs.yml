@@ -21,6 +21,8 @@ nav:
   - Overview: index.md
   - Features: features.md
   - Architecture: architecture.md
+  - S0 Pinouts: s0-pinouts.md
   - SO Baseboard: s0-baseboard.md
   - Baseboard Schematics: baseboard-schematics.md
+  - Baseboard Pinouts: baseboard-pinouts.md
   
