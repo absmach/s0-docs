@@ -1,6 +1,6 @@
 # 📘 S0 BaseBoard
 
-![S0 BASEBOARD](/images/s0-base-board-front.jpg)
+![S0 BASEBOARD](images/s0-base-board-front.jpg)
 
 ## 🔧 Features
 
@@ -31,7 +31,7 @@
 
 ## ⚡ Power System
 
-- **Primary Power Input:** 12V via `J2`
+- **Primary Power Input:** 24V via `J2`
 - **Battery Backup:** Via `J3` with charger IC circuit
 - **Protection:** Diodes for reverse polarity, inductors for EMI
 - **Power Output:** Supplies the connected S0 board through headers

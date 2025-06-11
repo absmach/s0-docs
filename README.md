@@ -16,7 +16,7 @@ git clone https://github.com/absmach/s0-docs.git
 
 ## Prerequisites
 
-[Python](https://www.python.org/downloads/) 3.7 or higher is required to run MkDocs.
+[Python](https://www.python.org/downloads/) 3.11 or higher is required to run MkDocs.
 
 1. Create a virtual environment:
 
