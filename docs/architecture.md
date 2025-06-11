@@ -1,6 +1,6 @@
 # 📡 S0 Board Architecture and Schematics
 
-### **HARDWARE ARCHITECTURE**
+## **HARDWARE ARCHITECTURE**
 
 ![Hardware Architecture](/images/architecture.png)
 
