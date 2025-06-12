@@ -1,6 +1,6 @@
 # **S0 PINOUT**
 
-## **BA Header Pinout (`J8`)**
+## **BA Header Pinout (`J1`)**
 
 | Pin     | Name    | Description            |
 | ------- | ------- | ---------------------- |
@@ -29,7 +29,7 @@
 | 23B     | MTMS    | Debug Mode Select      |
 | 23A     | MTDI    | Debug Data In          |
 
-## **DC Header Pinout (`J9`)**
+## **DC Header Pinout (`J2`)**
 
 | Pin      | Name         | Description       |
 | -------- | ------------ | ----------------- |

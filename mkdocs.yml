@@ -20,9 +20,11 @@ markdown_extensions:
 nav:
   - Overview: index.md
   - Features: features.md
+  - S0 Start Up: s0-user-description.md
   - Architecture: architecture.md
   - S0 Pinouts: s0-pinouts.md
   - SO Baseboard: s0-baseboard.md
+  - Baseboard Startup: baseboard-user-description.md
   - Baseboard Schematics: baseboard-schematics.md
   - Baseboard Pinouts: baseboard-pinouts.md
   

@@ -1,6 +1,6 @@
 # **Baseboard Pinouts**
 
-## _DC header pinout_ (`J6`)
+## DC header pinout (`J6`)
 
 | Pin      | Name | Description                 |
 | -------- | ---- | --------------------------- |
@@ -14,7 +14,7 @@
 | 16D      | SCK  | Ethernet SCK, SD CARD SCK   |
 | 17 -- 23 | -    | Unused Pins                 |
 
-## _DC header pinout_ (`J5`)
+## DC header pinout (`J5`)
 
 | Pin      | Name | Description              |
 | -------- | ---- | ------------------------ |

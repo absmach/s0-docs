@@ -1,6 +1,6 @@
 # 📘 S0 BaseBoard
 
-![S0 BASEBOARD](images/s0-base-board-front.jpg)
+![S0 BASEBOARD](images/baseboard-front.png)
 
 ## 🔧 Features
 
