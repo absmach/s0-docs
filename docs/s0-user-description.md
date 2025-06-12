@@ -4,7 +4,7 @@
 
 ## **Powering the Board**
 
-S0 board ban be powered in 2 ways:
+S0 board ban be powered in 3 ways:
 
 - **USB-C**: The board can be powered via the USB-C port. This method is for development and testing.
 - **Battery**: The board can be powered by a battery of maximum 7.4V connected via the battery JST as labelled on the board.
