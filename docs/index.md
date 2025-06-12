@@ -20,4 +20,4 @@ Please refer to the [CONTRIBUTING.md](https://github.com/absmach/.github/blob/ma
 
 ## 📜 License
 
-This project is licensed under the terms of the [Apache License](../LICENSE).
+This project is licensed under the terms of the [Apache License](https://github.com/absmach/s0-docs/blob/main/LICENSE).
