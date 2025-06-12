@@ -7,9 +7,8 @@ edit_uri: ""
 
 theme:
   name: material
-  icon: 
+  icon:
     repo: fontawesome/brands/github
-
 
 markdown_extensions:
   - admonition
@@ -27,4 +26,3 @@ nav:
   - Baseboard Startup: baseboard-user-description.md
   - Baseboard Schematics: baseboard-schematics.md
   - Baseboard Pinouts: baseboard-pinouts.md
-  

@@ -25,4 +25,3 @@ Debug can also be done not only through the USB -C connector but also the JTAG p
 - **Wireless Meter Bus**: S0 board has a wireless meter bus module, the RC-S2LP, that can be used for wireless communication with WMBUS Meters. Antenna connection is made possible by an IPEX connector on the RC-S2LP with a 868MHz antenna of your choice.
 
 - **NB IoT/ LTE**: S0 board has a NB-IoT/LTE module, the SIM7080G, that can be used for wireless communication with NB-IoT devices. The module has two separate antenna connections namely RF and GNSS whose IPEX connectors are marked on the board. The RF antenna is used for wireless communication while the GNSS antenna is used for GPS. The SIM7080G can be programmed by the ESP32 by sending AT commands through your firmware.
-  
