@@ -7,6 +7,7 @@
 - Onboard **W5500 Ethernet controller** for wired Ethernet connectivity
 - **TSS721A transceiver** for M-Bus communication
 - Wired M-Bus connection via Screw Terminal (`J1`)
+- SD Card slot for data logging
 - Dual 2×23-pin vertical pin sockets (`J5`, `J6`) for connecting the S0 board
 - 24V maximum input via Screw Terminal (`J2`)
 - Battery input and onboard charging circuit via JST connector (`J3`)
@@ -81,8 +82,8 @@ The **S0 BaseBoard** serves as a **cape board** that powers and extends the S0 m
 
 ## 🔄 Interface Map to S0
 
-| Interface | Direction      | Connected To   |
-| --------- | -------------- | -------------- |
-| SPI       | S0 ↔ W5500     | Network Comm   |
-| UART      | S0 ↔ TSS721A   | M-Bus Comm     |
-| Power     | BaseBoard → S0 | 12V or Battery |
+| Interface | Direction                | Connected To   |
+| --------- | ------------------------ | -------------- |
+| SPI       | S0 ↔ W5500, S0 ↔ SD Card | Network Comm   |
+| UART      | S0 ↔ TSS721A             | M-Bus Comm     |
+| Power     | BaseBoard → S0           | 12V or Battery |
