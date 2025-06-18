@@ -31,4 +31,4 @@
 | 20 -- 21 | -    | Unused Pins              |
 | 22 -- 23 | GND  | GND                      |
 
-![Baseboard Pin Sockets](images/baseboard-pinout.png)
+![Baseboard Pin Sockets](images/baseboard-pinout.svg)

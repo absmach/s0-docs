@@ -62,4 +62,4 @@
 | 21C      | ESP_IO2      | GPIO              |
 | 22 - 23  | GND          | Ground Pins       |
 
-![s0 pinout labeled](images/s0_pinout_edited.png)
+![s0 pinout labeled](images/s0_pinout_edited.svg)
