@@ -4,7 +4,7 @@
 
 ## 📟 S0
 
-![IoT Gateway Block Diagram](images/s0-front.png)
+![IoT Gateway](images/s0-front.png)
 
 ## 🚀 Overview
 
