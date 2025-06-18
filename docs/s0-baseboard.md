@@ -7,6 +7,7 @@
 - Onboard **W5500 Ethernet controller** for wired Ethernet connectivity
 - **TSS721A transceiver** for M-Bus communication
 - Wired M-Bus connection via Screw Terminal (`J1`)
+- SD Card slot for data logging
 - Dual 2×23-pin vertical pin sockets (`J5`, `J6`) for connecting the S0 board
 - 24V maximum input via Screw Terminal (`J2`)
 - Battery input and onboard charging circuit via JST connector (`J3`)
