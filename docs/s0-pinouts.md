@@ -2,32 +2,28 @@
 
 ## **BA Header Pinout (`J1`)**
 
-| Pin     | Name    | Description            |
-| ------- | ------- | ---------------------- |
-| 1B, 1A  | GND     | Ground                 |
-| 2B, 2A  | -       | Unused Pins            |
-| 3B      | MUX1    | Unused Pins            |
-| 3A      | MUX2    | 5V output              |
-| 4B      | MUX3    | Unused Pins            |
-| 4A      | CS      | WMBUS Chip Select      |
-| 5B      | SDN     | WMBUS Shut Down pin    |
-| 5A      | CS      | LoRA Chip Select       |
-| 6B      | LED     | Status LED             |
-| 6A      | GPIO    | External GPIO          |
-| 7B      | PWR     | SIM7080G Power Control |
-| 7A      | GPIO    | External GPIO          |
-| 8B      | CS      | SIM7080G Chip Select   |
-| 8A      | -       | Unused Pin             |
-| 9B      | GPIO    | External GPIO          |
-| 9A      | -       | Unused Pins            |
-| 10 - 18 | -       | Unused Pins            |
-| 19B     | MBUS-RX | MBUS Receiver Pin      |
-| 19A     | MBUS-TX | MBUS Transmitter Pin   |
-| 20 - 21 | -       | Unused Pins            |
-| 22B     | MTCK    | Debug Clock            |
-| 22A     | MTDO    | Debug Data Out         |
-| 23B     | MTMS    | Debug Mode Select      |
-| 23A     | MTDI    | Debug Data In          |
+| Pin     | Name          | Description                         |
+| ------- | ------------- | ----------------------------------- |
+| 1B, 1A  | GND           | Ground                              |
+| 2B, 2A  | -             | Unused Pins                         |
+| 3B      | SIM7080G_D+   | SIM7080G Data +                     |
+| 3A      | SIM7080G_D-   | SIM7080G Data -                     |
+| 4B      | ETH_RST       | Ethernet Reset pin                  |
+| 4A      | WMBUS_CS      | WMBUS Chip Select                   |
+| 5B      | ETH_INT       | Ethernet Interrupt pin              |
+| 5A      | ESP_IO8       | External GPIO                       |
+| 6B      | -             | Unused Pins                         |
+| 6A      | ESP_IO19      | External GPIO                       |
+| 7B      | SIM7080G_PWR  | SIM7080G Power Control              |
+| 7A      | ESP_IO15      | External GPIO                       |
+| 8 - 18  | -             | Unused Pins                         |
+| 19B     | MBUS-RX       | MBUS Receiver Pin                   |
+| 19A     | MBUS-TX       | MBUS Transmitter Pin                |
+| 20 - 21 | -             | Unused Pins                         |
+| 22B     | MTCK / ETH_CS | Debug Clock / Ethernet Chip Select  |
+| 22A     | MTDO / SD_CS  | Debug Data Out / SD Cardchip select |
+| 23B     | MTMS          | Debug Mode Select                   |
+| 23A     | MTDI          | Debug Data In                       |
 
 ## **DC Header Pinout (`J2`)**
 
@@ -58,8 +54,8 @@
 | 17D      | -            | Unused Pin        |
 | 17C      | GND          | Ground Pin        |
 | 18 - 20  | -            | Unused Pins       |
-| 21D      | ESP_IO3      | GPIO              |
-| 21C      | ESP_IO2      | GPIO              |
+| 21D      | ESP_IO1      | GPIO              |
+| 21C      | ESP_IO0      | GPIO              |
 | 22 - 23  | GND          | Ground Pins       |
 
 ![s0 pinout labeled](images/s0_pinout.svg)
