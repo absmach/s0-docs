@@ -5,8 +5,9 @@
 The gateway provides support for the following communication interfaces:
 
 - 📶 **Wireless M-Bus (868 MHz)** via the **RC-S2LP module**
-- 🌐 **NB-IoT / LTE-M** via the **SIM7080G** module for cellular connectivity 
+- 🌐 **NB-IoT / LTE-M** via the **SIM7080G** module for cellular connectivity
 - 🌍 **Internet connectivity** via NB-IoT, Ethernet (optional)
+
 ---
 
 The custom PCB integrates multiple communication modules and power interfaces designed for industrial deployment:
