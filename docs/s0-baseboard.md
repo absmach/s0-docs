@@ -65,7 +65,7 @@ The **S0 BaseBoard** serves as a **cape** that powers and extends the S0 module 
 
 ## 📐 PCB Layout
 
-- 2-layer board with copper on F.Cu and B.Cu
+- 4-layer board with copper on F.Cu and B.Cu
 - Board thickness: ~1.6 mm (standard FR-4)
 - Modular footprint with JST and pin headers
 
