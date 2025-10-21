@@ -27,7 +27,7 @@ You can set:
 
 The Baseboard has a Wired Meter Bus which is a 2 wire interface that can be used to connect to the Wired Meter. The Wired Meter Bus is connected to the Wired Meter via the MBus Screw Terminal with its markings as shown on the board.
 
-## **Data Storage Feature.**
+## **Data Storage.**
 
 The Baseboard is also equipped with a MicroSD card slot which can be used to store MBUS data to an SD Card.
 

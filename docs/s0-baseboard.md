@@ -54,7 +54,7 @@
 
 ## 🧠 Architecture
 
-The **S0 BaseBoard** serves as a **cape board** that powers and extends the S0 module by offering:
+The **S0 BaseBoard** serves as a **cape** that powers and extends the S0 module by offering:
 
 - Ethernet via W5500
 - Wired M-Bus via TSS721A
@@ -65,7 +65,7 @@ The **S0 BaseBoard** serves as a **cape board** that powers and extends the S0 m
 
 ## 📐 PCB Layout
 
-- 2-layer board with copper on F.Cu and B.Cu
+- 4-layer board with copper on F.Cu and B.Cu
 - Board thickness: ~1.6 mm (standard FR-4)
 - Modular footprint with JST and pin headers
 
@@ -82,8 +82,8 @@ The **S0 BaseBoard** serves as a **cape board** that powers and extends the S0 m
 
 ## 🔄 Interface Map to S0
 
-| Interface | Direction      | Connected To   |
-| --------- | -------------- | -------------- |
-| SPI       | S0 ↔ W5500     | Network Comm   |
-| UART      | S0 ↔ TSS721A   | M-Bus Comm     |
-| Power     | BaseBoard → S0 | 12V or Battery |
+| Interface | Direction      | Connected To  |
+| --------- | -------------- | ------------- |
+| SPI       | S0 ↔ W5500     | Network Comm  |
+| UART      | S0 ↔ TSS721A   | M-Bus Comm    |
+| Power     | BaseBoard → S0 | 5V or Battery |

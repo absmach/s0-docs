@@ -2,17 +2,15 @@
 
 ## **ETHERNET CIRCUIT**
 
-![W5500](images/w5500.png)
+![W5500](images/ethernet.png)
 
-![JACK AND MAGNETICS](images/jackmagnetics.png)
-
-![AUTONEGOTIATING MODES](images/negotiatemodes.png)
+![JACK AND MAGNETICS](images/magneticsandjack.png)
 
 ![DECOUPLING CAPS](images/decapseth.png)
 
 ### **MBUS CIRCUIT**
 
-![MBUS](images/mbus.png)
+![MBUS](images/wiredmbus.png)
 
 ### **SD CARD CIRCUIT**
 
@@ -20,14 +18,14 @@
 
 ### **BOARD FRAME AND CONNECTORS**
 
-![BOARD FRAME](images/boardframe.png)
+![BOARD FRAME](images/baseframe.png)
 
-![BOARD HEADERS](images/boardheaders.png)
+![BOARD HEADERS](images/baseconnectors.png)
 
 ### **POWER CIRCUITRY**
 
-![TBLOCK AND BATTERY CONN](images/tblock.png)
+![TBLOCK AND BATTERY CONN](images/powerbase.png)
 
-![VOLTAGE CONVERTERS](images/voltageconverter.png)
+![VOLTAGE CONVERTERS](images/voltconvert.png)
 
 ![BATTERY CHARGER](images/battcharger.png)
