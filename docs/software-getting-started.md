@@ -18,7 +18,7 @@ Once Zephyr is installed, you can build and flash applications directly to the S
 
 ## Codebase Setup
 
-Zephyr code for the various protocols can be found by cloning [Embedded Repository](https://github.com/absmach/embedded)
+Zephyr code for the various protocols can be accessed by cloning [Embedded Repository](https://github.com/absmach/embedded)
 
 ## SuperMQ Setup
 

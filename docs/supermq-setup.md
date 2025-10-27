@@ -1,22 +1,54 @@
 # Connecting S0 to SuperMQ
 
-## Connection to Magistrala
+After cloning the SuperMQ repository, follow these steps using the CLI.
 
-The S0 board is designed to connect to an IoT application called **Magistrala**, which manages and visualizes data from connected devices.  
-Magistrala uses **SuperMQ** as its core messaging backbone, providing scalable, high-performance message routing and topic-based data distribution.
+## Create user
 
-S0 devices communicate with **SuperMQ** over the supported protocols (MQTT, HTTPS, CoAP, etc.) to publish and subscribe to IoT data streams securely.
+```bash
+./build/cli users create <firstname> <lastname> <email> <username> <password>
+```
 
----
+## Create a User Token
 
-## SuperMQ Setup Guide
+```bash
+./build/cli users token <username> <password>
+```
 
-A detailed guide will be provided to help users set up **SuperMQ** and establish a secure connection between the S0 board and the Magistrala IoT platform.  
-This will include:
+This yields the `ACCESSTOKEN` and `REFRFESHTOKEN`
+Copy the `ACCESSTOKEN` and save it as environment variable.
 
-- SuperMQ server installation and configuration
-- Certificate generation for secure connections (mTLS/DTLS)
-- Configuring topics for S0 device data exchange
-- Verifying communication between S0 and Magistrala
+```bash
+export ACCESSTOKEN=<your access token>
+```
+
+To access your environment variables, use the dollar operator.
+
+```bash
+echo $ACCESSTOKEN
+```
+
+## Create a Domain
+
+```bash
+./build/cli doamins <domain name> create <route> <accesstoken>
+```
+
+This yields the Domain ID, which you store as an environment variable
+
+## Create a Channel
+
+```bash
+./build/cli channels '{"name":"<channel_name>"}' create $DOMAINID #ACCESSTOKEN
+```
+
+This yields the Channel ID, which you store as an environment variable
+
+## Create a Client
+
+```bash
+./build/cli clients '{"name":"<client_name>"}' create $DOMAINID #ACCESSTOKEN
+```
+
+This yield the `CLIENTID` and `CLIENTSECRET` which you store as environment variableS
 
 ---
