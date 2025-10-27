@@ -1,5 +1,3 @@
-# Software
-
 # S0 Software Overview
 
 ## Introduction

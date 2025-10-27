@@ -23,4 +23,5 @@ Zephyr code for the various protocols can be found by cloning [Embedded Reposito
 Start by cloning the [SuperMQ repository](https://github.com/absmach/supermq)
 
 Follow the documentation on how to start off SuperMQ via he CLI [SuperMQ startup](https://docs.supermq.absmach.eu/cli)
+
 ---
