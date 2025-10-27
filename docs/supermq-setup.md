@@ -30,7 +30,7 @@ echo $ACCESSTOKEN
 ## Create a Domain
 
 ```bash
-./build/cli doamins <domain name> create <route> #ACCESSTOKEN
+./build/cli doamins <domain name> create <route> $ACCESSTOKEN
 ```
 
 This yields the Domain ID, which you store as an environment variable
@@ -38,7 +38,7 @@ This yields the Domain ID, which you store as an environment variable
 ## Create a Channel
 
 ```bash
-./build/cli channels '{"name":"<channel_name>"}' create $DOMAINID #ACCESSTOKEN
+./build/cli channels '{"name":"<channel_name>"}' create $DOMAINID $ACCESSTOKEN
 ```
 
 This yields the Channel ID, which you store as an environment variable
@@ -46,7 +46,7 @@ This yields the Channel ID, which you store as an environment variable
 ## Create a Client
 
 ```bash
-./build/cli clients '{"name":"<client_name>"}' create $DOMAINID #ACCESSTOKEN
+./build/cli clients '{"name":"<client_name>"}' create $DOMAINID $ACCESSTOKEN
 ```
 
 This yield the `CLIENTID` and `CLIENTSECRET` which you store as environment variableS
