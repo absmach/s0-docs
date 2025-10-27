@@ -1,3 +1,4 @@
+
 ## Development Environment
 
 To program and build firmware for the S0 board, you need to install **Zephyr OS**.  
