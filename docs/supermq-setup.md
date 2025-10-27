@@ -30,7 +30,7 @@ echo $ACCESSTOKEN
 ## Create a Domain
 
 ```bash
-./build/cli doamins <domain name> create <route> <accesstoken>
+./build/cli doamins <domain name> create <route> #ACCESSTOKEN
 ```
 
 This yields the Domain ID, which you store as an environment variable
