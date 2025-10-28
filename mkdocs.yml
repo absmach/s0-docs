@@ -16,29 +16,27 @@ markdown_extensions:
   - toc:
       permalink: "#"
 
-nav:
-  - Hardware: 
-    - Overview: index.md
-    - Features: features.md
-    - S0 Start Up: s0-user-description.md
-    - Architecture: architecture.md
-    - S0 Pinouts: s0-pinouts.md
-    - SO Baseboard: s0-baseboard.md
-    - Baseboard Startup: baseboard-user-description.md
-    - Baseboard Schematics: baseboard-schematics.md
-    - Baseboard Pinouts: baseboard-pinouts.md
+nav: 
+  - Overview: index.md
+  - Features: features.md
+  - S0 Start Up: s0-user-description.md
+  - Architecture: architecture.md
+  - S0 Pinouts: s0-pinouts.md
+  - SO Baseboard: s0-baseboard.md
+  - Baseboard Startup: baseboard-user-description.md
+  - Baseboard Schematics: baseboard-schematics.md
+  - Baseboard Pinouts: baseboard-pinouts.md
   - Software:
       - Overview: software-overview.md
       - Getting Started: software-getting-started.md
-      - SuperMQ: supermq-setup.md
       - Uploading Code: uploading-code.md
       - Examples: 
-          - WiFi: wifi-example.md
-          - MQTT: mqtt-example.md
-          - HTTP: http-example.md
-          - WEBSOCKETS: websockets-example.md
-          - COAP: coap-example.md
-          - COAP-DTLS: coap-dtls-example.md
-          - MQTTS: mqtts-example.md
-          - HTTPS: https-example.md
+          - WiFi: wifi.md
+          - MQTT: mqtt.md
+          - HTTP: http.md
+          - WEBSOCKETS: websockets.md
+          - COAP: coap.md
+          - COAP-DTLS: coap-dtls.md
+          - MQTTS: mqtts.md
+          - HTTPS: https.md
 
