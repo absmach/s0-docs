@@ -31,3 +31,14 @@ nav:
       - Overview: software-overview.md
       - Getting Started: software-getting-started.md
       - SuperMQ: supermq-setup.md
+      - Uploading Code: uploading-code.md
+      - Examples: 
+          - WiFi: wifi-example.md
+          - MQTT: mqtt-example.md
+          - HTTP: http-example.md
+          - WEBSOCKETS: websockets-example.md
+          - COAP: coap-example.md
+          - COAP-DTLS: coap-dtls-example.md
+          - MQTTS: mqtts-example.md
+          - HTTPS: https-example.md
+

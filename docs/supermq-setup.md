@@ -1,6 +1,25 @@
-# Connecting S0 to SuperMQ
+# SuperMQ setup
 
-After cloning the SuperMQ repository, follow these steps using the CLI.
+To start the SuperMQ setup ensure you have these installed:
+
+```code
+make
+docker
+docker compose
+go
+```
+
+Clone the SuperMQ repository and enter the supermq directory
+
+Start SuperMQ using these commands:
+
+```bash
+make run down
+make all -j8 && make dockers_dev -j8
+make run up
+```
+
+After starting SuperMQ, in a separate terminal, follow these steps using the CLI.
 
 ## Create user
 
@@ -49,6 +68,6 @@ This yields the Channel ID, which you store as an environment variable
 ./build/cli clients '{"name":"<client_name>"}' create $DOMAINID $ACCESSTOKEN
 ```
 
-This yield the `CLIENTID` and `CLIENTSECRET` which you store as environment variableS
+This yield the `CLIENTID` and `CLIENTSECRET` which you store as environment variables
 
 ---
