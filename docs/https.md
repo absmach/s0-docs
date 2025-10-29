@@ -1,6 +1,6 @@
-# Connecting S0 to SuperMQ via HTTPS
+# **Connecting S0 to Magistrala via HTTPS**
 
-## Running Magistrala
+## **Running Magistrala**
 
 Ensure that Magistrala is running.
 
@@ -15,9 +15,9 @@ Start with the WiFi credentials as S0 in this case is in Station Mode.
 #define WIFI_PSK "PASSWORD" // Replace `PASSWORD` with Router password
 ```
 
-## Configuring Magistrala variables
+## **Configuring Magistrala variables**
 
-## Standard TLS
+## **Standard TLS**
 
 ```code
 #define MAGISTRALA_HOSTNAME "messaging.magistrala-beta.absmach.eu" // Replace with your Magistrala instance hostname
@@ -28,7 +28,7 @@ Start with the WiFi credentials as S0 in this case is in Station Mode.
 #define CHANNEL_ID "0ffc71bc-4a25-4e22-bfb8-b1a847ed50ab"       // Replace with your Channel ID
 ```
 
-## Bulding and Flashing Code
+## **Bulding and Flashing Code**
 
 Once you update the configuration file, build and run the code:
 
@@ -38,10 +38,8 @@ west flash
 west espressif monitor
 ```
 
-To monitor SuperMQ http logs for connections and messages, enter a separate terminal and use the command:
+To monitor Magistrala coap messages, check in Messages under Clients Management.
 
-```bash
-docker logs supermq-http --follow
-```
+![Magistrala Messages](images/messages_magistrala.png)
 
 ---

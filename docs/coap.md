@@ -1,8 +1,8 @@
-# Connecting S0 to SuperMQ via CoAP
+# **Connecting S0 to Magistrala via CoAP**
 
-## Running SuperMQ
+## **Running Magistrala**
 
-Ensure that SuperMQ is running in a separate terminal and all the environment variables ready.
+Ensure that Magistrala is running.
 
 Ensure also you are in the `embedded/targets/zephyr/coap` directory when executing the below steps
 
@@ -15,7 +15,7 @@ Start with the WiFi credentials as S0 in this case is in Station Mode.
 #define WIFI_PSK "PASSWORD" // Replace `PASSWORD` with Router password
 ```
 
-## Configuring SuperMQ environment variables
+## **Configuring SuperMQ environment variables**
 
 ```code
 #define MAGISTRALA_IP                                                          \
@@ -27,9 +27,9 @@ Start with the WiFi credentials as S0 in this case is in Station Mode.
 #define CHANNEL_ID "CHANNEL_ID"       // Replace with your Channel ID
 ```
 
-The `MAGISTRALA_IP` is the IP of your PC running SuperMQ. Use the command `ip a` in your terminal to find it.
+The `MAGISTRALA_IP` is the IP of your PC running Magistrala. Use the command `ip a` in your terminal to find it.
 
-## Bulding and Flashing Code
+## **Bulding and Flashing Code**
 
 Once you update the configuration file, build and run the code:
 
@@ -39,10 +39,8 @@ west flash
 west espressif monitor
 ```
 
-To monitor SuperMQ coap logs for connections and messages, enter a separate terminal and use the command:
+To monitor Magistrala coap messages, check in Messages under Clients Management.
 
-```bash
-docker logs supermq-coap --follow
-```
+![Magistrala Messages](images/messages_magistrala.png)
 
 ---

@@ -1,6 +1,6 @@
-# Getting Started
+# **Getting Started**
 
-## Development Environment
+## **Development Environment**
 
 To program and build firmware for the S0 board, you need to install **Zephyr OS**.  
 Zephyr can be downloaded and set up from the official website:
@@ -16,14 +16,18 @@ Zephyr provides:
 
 Once Zephyr is installed, you can build and flash applications directly to the S0 board using standard Zephyr tools such as `west`.
 
-## Codebase Setup
+## **Codebase Setup**
 
 Zephyr code for the various protocols can be accessed by cloning [Embedded Repository](https://github.com/absmach/embedded)
 
-## SuperMQ Setup
+## **Magistrala Setup**
 
-Start by cloning the [SuperMQ repository](https://github.com/absmach/supermq)
+- Start by navigating to [Magistrala](magistrala-beta.absmach.eu) and signing up.
 
-Follow the documentation on how to start off SuperMQ via he CLI [SuperMQ startup](https://docs.supermq.absmach.eu/cli)
+- Create a domain, channel and client.
 
+- Connect the client to the channel you created.
+  
+- From these will you get the `CHANNELID`, `DOMAINID`, `CLIENTID` and `CLIENTSECRET`
+  
 ---
