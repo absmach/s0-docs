@@ -36,7 +36,7 @@ nav:
           - HTTP: http.md
           - WEBSOCKETS: websockets.md
           - COAP: coap.md
-          - COAP-DTLS: coap-dtls.md
+          - COAP-DTLS: coaps.md
           - MQTTS: mqtts.md
           - HTTPS: https.md
 

@@ -18,8 +18,7 @@ Start with the WiFi credentials as S0 in this case is in Station Mode.
 ## **Configuring Magistrala variables**
 
 ```code
-#define MAGISTRALA_IP                                                          \
-  "MAGISTRALA_IP" // Replace with your Magistrala instance IP
+#define MAGISTRALA_HOSTNAME "MAGISTRALA_HOSTNAME" // Replace with your Magistrala instance hostname or IP
 #define MAGISTRALA_WS_PORT 8186
 #define DOMAIN_ID "DOMAIN_ID"         // Replace with your Domain ID
 #define CLIENT_ID "CLIENT_ID"         // Replace with your Client ID
@@ -27,9 +26,7 @@ Start with the WiFi credentials as S0 in this case is in Station Mode.
 #define CHANNEL_ID "CHANNEL_ID"       // Replace with your Channel ID
 ```
 
-The `MAGISTRALA_IP` is the IP of your PC running Magistrala. Use the command `ip a` in your terminal to find it.
-
-## Bulding and Flashing Code
+## **Bulding and Flashing Code**
 
 Once you update the configuration file, build and run the code:
 

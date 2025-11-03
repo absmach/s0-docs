@@ -28,6 +28,10 @@ Start with the WiFi credentials as S0 in this case is in Station Mode.
 #define CHANNEL_ID "0ffc71bc-4a25-4e22-bfb8-b1a847ed50ab"       // Replace with your Channel ID
 ```
 
+## **TLS Certificate**
+
+Update `src/ca_cert.h` with your Magistrala server's CA certificate.
+
 ## **Bulding and Flashing Code**
 
 Once you update the configuration file, build and run the code:

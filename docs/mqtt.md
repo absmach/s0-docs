@@ -18,18 +18,13 @@ Start with the WiFi creedntials as S0 in this case is in Station Mode.
 ## **Configuring Magistrala variables**
 
 ```code
-#define MAGISTRALA_IP                                                          \
-  "MAGISTRALA_IP" // Replace with your Magistrala instance IP
+#define MAGISTRALA_HOSTNAME "MAGISTRALA_HOSTNAME" // Replace with your Magistrala instance hostname or IP
 #define MAGISTRALA_MQTT_PORT 1883
 #define DOMAIN_ID "DOMAIN_ID"         // Replace with your Domain ID
 #define CLIENT_ID "CLIENT_ID"         // Replace with your Client ID
 #define CLIENT_SECRET "CLIENT_SECRET" // Replace with your Client secret
 #define CHANNEL_ID "CHANNEL_ID"       // Replace with your Channel ID
-#define MQTT_CLIENTID "MQTT_CLIENTID" // Replace with your actual client ID
 ```
-
-The `MAGISTRALA_IP` is the IP of your PC running SuperMQ. Use the command `ip a` in your terminal to find it.
-The `MQTT_CLIENTID` is the same as `CLIENT_ID`
 
 ## **Bulding and Flashing Code**
 
