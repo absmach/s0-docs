@@ -1,6 +1,6 @@
 # **Baseboard Start Up**
 
-![BASEBOARD LABELED](images/baseboard-labeled.png)
+![BASEBOARD LABELED](images/bb-label.png)
 
 ## **Powering the Board.**
 
