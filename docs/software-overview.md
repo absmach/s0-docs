@@ -12,14 +12,14 @@ The board runs on the **Zephyr Real-Time Operating System (RTOS)**, offering sta
 
 The S0 board supports a variety of IoT communication protocols. These enable secure and efficient data transfer between the device and cloud services.
 
-| Protocol       | Security | Description                                            | Reference                                                                      |
-| -------------- | -------- | ------------------------------------------------------ | ------------------------------------------------------------------------------ |
-| **MQTT**       | ✗        | Lightweight messaging protocol for IoT data exchange.  | [GitHub: MQTT Example](https://github.com/absmach/embedded/tree/main/targets/zephyr/mqtt)             |
-| **MQTTS**      | ✓        | Secure MQTT communication over TLS (mTLS supported).   | [GitHub: MQTTS Example](https://github.com/absmach/embedded/tree/main/targets/zephyr/mqtts)           |
-| **CoAP**       | ✗        | REST-based protocol optimized for constrained devices. | [GitHub: CoAP Example](https://github.com/absmach/embedded/tree/main/targets/zephyr/coap)             |
-| **CoAP DTLS**  | ✓        | Secure CoAP communication using DTLS encryption.       | [GitHub: CoAP-DTLS Example](https://github.com/absmach/embedded/tree/main/targets/zephyr/coaps)   |
-| **HTTP**       | ✗        | Standard web communication protocol.                   | [GitHub: HTTP Example](https://github.com/absmach/embedded/tree/main/targets/zephyr/http)             |
-| **HTTPS**      | ✓        | Secure version of HTTP over TLS.                       | [GitHub: HTTPS Example](https://github.com/absmach/embedded/tree/main/targets/zephyr/https)           |
+| Protocol       | Security | Description                                            | Reference                                                                                            |
+| -------------- | -------- | ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
+| **MQTT**       | ✗        | Lightweight messaging protocol for IoT data exchange.  | [GitHub: MQTT Example](https://github.com/absmach/embedded/tree/main/targets/zephyr/mqtt)            |
+| **MQTTS**      | ✓        | Secure MQTT communication over TLS (mTLS supported).   | [GitHub: MQTTS Example](https://github.com/absmach/embedded/tree/main/targets/zephyr/mqtts)          |
+| **CoAP**       | ✗        | REST-based protocol optimized for constrained devices. | [GitHub: CoAP Example](https://github.com/absmach/embedded/tree/main/targets/zephyr/coap)            |
+| **CoAP DTLS**  | ✓        | Secure CoAP communication using DTLS encryption.       | [GitHub: CoAP-DTLS Example](https://github.com/absmach/embedded/tree/main/targets/zephyr/coaps)      |
+| **HTTP**       | ✗        | Standard web communication protocol.                   | [GitHub: HTTP Example](https://github.com/absmach/embedded/tree/main/targets/zephyr/http)            |
+| **HTTPS**      | ✓        | Secure version of HTTP over TLS.                       | [GitHub: HTTPS Example](https://github.com/absmach/embedded/tree/main/targets/zephyr/https)          |
 | **WebSockets** | ✓        | Full-duplex communication protocol over TCP.           | [GitHub: WebSockets Example](https://github.com/absmach/embedded/tree/main/targets/zephyr/websocket) |
 
 > Each communication example repository contains setup guides, sample code, and instructions for integration with Zephyr.
