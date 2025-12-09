@@ -22,7 +22,7 @@ Zephyr code for the various protocols can be accessed by cloning [Embedded Repos
 
 ## **Magistrala Setup**
 
-- Start by navigating to [Magistrala](magistrala-beta.absmach.eu) and signing up.
+- Start by navigating to [Magistrala](https://cloud.magistrala.absmach.eu) and signing up.
 
 - Create a domain, channel and client.
 
