@@ -20,7 +20,7 @@ Start with the WiFi credentials as S0 in this case is in Station Mode.
 ## **Standard TLS**
 
 ```code
-#define MAGISTRALA_HOSTNAME "messaging.magistrala-beta.absmach.eu" // Replace with your Magistrala instance hostname
+#define MAGISTRALA_HOSTNAME "MAGISTRALA_HOSTNAME" // Replace with your Magistrala instance hostname
 #define MAGISTRALA_HTTPS_PORT 443
 #define DOMAIN_ID "49baf6fe-2f7c-4748-8e99-2846346ef6ba"         // Replace with your Domain ID
 #define CLIENT_ID "2fde3a36-e098-485c-8b83-314facaef903"         // Replace with your Client ID
