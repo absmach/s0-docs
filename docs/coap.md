@@ -18,7 +18,7 @@ Start with the WiFi credentials as S0 in this case is in Station Mode.
 ## **Configuring SuperMQ environment variables**
 
 ```code
-#define MAGISTRALA_HOSTNAME "MAGISTRALA_HOSTNAME" // Replace with your Magistrala instance hostname or IP
+#define MAGISTRALA_HOSTNAME "messaging.magistrala.absmach.eu" // Replace with your Magistrala instance hostname or IP
 #define MAGISTRALA_COAP_PORT 5683
 #define DOMAIN_ID "DOMAIN_ID"         // Replace with your Domain ID
 #define CLIENT_ID "CLIENT_ID"         // Replace with your Client ID

@@ -18,7 +18,7 @@ Start with the WiFi creedntials as S0 in this case is in Station Mode.
 ## **Configuring Magistrala variables**
 
 ```code
-#define MAGISTRALA_HOSTNAME "MAGISTRALA_HOSTNAME" // Replace with your Magistrala instance hostname or IP
+#define MAGISTRALA_HOSTNAME "messaging.magistrala.absmach.eu" // Replace with your Magistrala instance hostname or IP
 #define MAGISTRALA_HTTP_PORT 80
 #define DOMAIN_ID "DOMAIN_ID"         // Replace with your Domain ID
 #define CLIENT_ID "CLIENT_ID"         // Replace with your Client ID
