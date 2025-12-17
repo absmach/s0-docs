@@ -80,7 +80,7 @@ Before testing, ensure you have:
 
 - S0 Baseboard powered
 - S0, or a microcontroller of your choice powered and programmed
-- A **wired M-Bus compatible meter** or a (12-42)V DC power supply connected at the MBUS lines wth the proper M-Bus wiring (polarity observed)
+- A **wired M-Bus compatible meter** or a (12-42)V DC power supply connected at the MBUS lines with the proper M-Bus wiring (polarity observed)
 - Serial logging enabled on the S0 or Microcontroller of your choice
 - Correct UART configuration (typically 2400 or 9600 baud)
 

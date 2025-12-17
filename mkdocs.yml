@@ -41,3 +41,4 @@ nav:
           - HTTPS: https.md
   - Module Tests:
     - Wired MBUS: wiredmbus-testing.md
+    - Wireless MBUS: wirelessmbus-testing.md
