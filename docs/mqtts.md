@@ -29,6 +29,10 @@ Start with the WiFi credentials as S0 in this case is in Station Mode.
 #define CHANNEL_ID "CHANNEL_ID"       // Replace with your Channel ID
 ```
 
+## **TLS Certificate**
+
+Update `src/ca_cert.h` with [Magistrala CA certificate](https://github.com/absmach/magistrala/blob/main/docker/ssl/certs/ca.crt).
+
 ## **Bulding and Flashing Code**
 
 Once you update the configuration file, build and run the code:

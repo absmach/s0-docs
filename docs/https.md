@@ -30,7 +30,7 @@ Start with the WiFi credentials as S0 in this case is in Station Mode.
 
 ## **TLS Certificate**
 
-Update `src/ca_cert.h` with your Magistrala server's CA certificate.
+Update `src/ca_cert.h` with [Magistrala CA certificate](https://github.com/absmach/magistrala/blob/main/docker/ssl/certs/ca.crt).
 
 ## **Bulding and Flashing Code**
 
