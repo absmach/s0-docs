@@ -39,4 +39,5 @@ nav:
           - COAP-DTLS: coaps.md
           - MQTTS: mqtts.md
           - HTTPS: https.md
-
+  - Module Tests:
+    - Wired MBUS: wiredmbus-testing.md
