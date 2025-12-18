@@ -16,7 +16,7 @@ markdown_extensions:
   - toc:
       permalink: "#"
 
-nav:
+nav: 
   - Overview: index.md
   - Features: features.md
   - S0 Start Up: s0-user-description.md
@@ -26,3 +26,17 @@ nav:
   - Baseboard Startup: baseboard-user-description.md
   - Baseboard Schematics: baseboard-schematics.md
   - Baseboard Pinouts: baseboard-pinouts.md
+  - Software:
+      - Overview: software-overview.md
+      - Getting Started: software-getting-started.md
+      - Uploading Code: uploading-code.md
+      - Examples: 
+          - WiFi: wifi.md
+          - MQTT: mqtt.md
+          - HTTP: http.md
+          - WEBSOCKETS: websockets.md
+          - COAP: coap.md
+          - COAP-DTLS: coaps.md
+          - MQTTS: mqtts.md
+          - HTTPS: https.md
+
