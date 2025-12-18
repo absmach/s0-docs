@@ -38,6 +38,4 @@ west espressif monitor
 
 To monitor Magistrala mqtt messages, check in Messages under Clients Management.
 
-![Magistrala Messages](images/messages_magistrala.png)
-
 ---

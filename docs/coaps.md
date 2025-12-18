@@ -28,33 +28,15 @@ Start with the WiFi credentials as S0 in this case is in Station Mode.
 
 ## **DTLS Certificate**
 
-Update `src/ca_cert.h` with [Magistrala CA certificate](https://messaging.magistrala.absmach.eu/api/http/).
+To download the Magistrala CA certificate, run the following command:
 
-## **How to get the certificate**
+```bash
+openssl s_client -connect messaging.magistrala.absmach.eu:443 \
+  -servername messaging.magistrala.absmach.eu \
+  </dev/null | openssl x509 > messaging.magistrala.absmach.eu.pem
+```
 
-After navigating to the link [Magistrala CA certificate](https://messaging.magistrala.absmach.eu/api/http/), follow the below images to acquire the certificate.
-
-### Step 1
-
-![Step 1](images/cert_step1.png)
-
-### Step 2
-
-![Step 2](images/cert_step2.png)
-
-### Step 3
-
-![Step 1](images/cert_step3.png)
-
-### Step 4
-
-Click on export to download the certificate.
-
-![Step 1](images/cert_step4.png)
-
-### Step 5
-
-Update `src/ca_cert.h` with the downladed certificate contents.
+Copy the certificate contents to your `src/ca_cert.h`
 
 ## **Bulding and Flashing Code**
 
@@ -67,7 +49,5 @@ west espressif monitor
 ```
 
 To monitor Magistrala coap messages, check in Messages under Clients Management.
-
-![Magistrala Messages](images/messages_magistrala.png)
 
 ---
