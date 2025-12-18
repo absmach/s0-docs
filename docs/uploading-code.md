@@ -44,5 +44,3 @@ To upload code to the S0 and monitor the serial output:
 west flash
 west espressif monitor
 ```
-
----

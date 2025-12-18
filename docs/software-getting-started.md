@@ -29,5 +29,3 @@ Zephyr code for the various protocols can be accessed by cloning [Embedded Repos
 - Connect the client to the channel you created.
   
 - From these will you get the `CHANNELID`, `DOMAINID`, `CLIENTID` and `CLIENTSECRET`
-  
----

@@ -29,5 +29,3 @@ The S0 board supports a variety of IoT communication protocols. These enable sec
 ## Summary
 
 The S0 board combines Zephyr’s robust RTOS capabilities with modern communication stacks and secure connectivity features. Its compatibility with **Magistrala**/**SuperMQ** enables seamless data flow between hardware and cloud, empowering developers to build scalable, secure, and efficient IoT systems.
-
----

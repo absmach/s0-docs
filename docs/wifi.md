@@ -40,5 +40,3 @@ west espressif monitor
 ```
 
 See the logs from the Serial Monitor to check whether S0 is connected.
-
----
