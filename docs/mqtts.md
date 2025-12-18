@@ -50,7 +50,3 @@ west build -p always -b esp32c6_devkitc
 west flash
 west espressif monitor
 ```
-
-To monitor Magistrala mqtts messages, check in Messages under Clients Management.
-
----
